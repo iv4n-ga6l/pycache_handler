@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pycache_handler
-Version: 0.1.2
+Version: 0.1.3
 Summary: Python package to automatically delete __pycache__ directories.
 Home-page: https://github.com/iv4n-ga6l/pycache_handler
 Author: Ivan APEDO

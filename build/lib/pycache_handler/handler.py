@@ -48,7 +48,7 @@ class PycacheMonitor:
     def start_monitoring(self):
         """Start the file system observer and periodic scan thread."""
         if not self.project_dir:
-            self.project_dir = os.path.dirname(os.path.abspath(__file__))
+            self.project_dir = os.getcwd()
 
         # Create and start the observer
         self.observer = Observer()
