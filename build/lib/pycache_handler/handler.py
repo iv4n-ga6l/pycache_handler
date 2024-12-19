@@ -86,7 +86,7 @@ def py_cache_handler(func=None, project_dir=None):
     Args:
         func: The function to decorate
         project_dir: Optional directory path to monitor. If not provided,
-                    uses the directory of the decorated file.
+                    uses the current working directory.
     """
     if func is None:
         return lambda f: py_cache_handler(f, project_dir)
